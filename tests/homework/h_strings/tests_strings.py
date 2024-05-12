@@ -4,13 +4,7 @@ from src.homework.h_strings.strings import get_dna_complement
 
 class Test_Config(unittest.TestCase):
     
-    def test_case():
-
-        if(get_hamming_distance("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT")==7):
-            
-            if(get_dna_complement("AAAACCCGGT")=="ACCGGGTTTT"):
-                return True
-            else:
-                return False
-        else:
-            return False
+    def get_number_1(self):
+        self.assertEqual(7, get_hamming_distance('GAGCCTACTAACGGGAT', 'CATCGTAATGACGGCCT'))
+    def get_number_1(self):
+        self.assertEqual('ACCGGGTTTT' , get_dna_complement('AAAACCCGGT'))

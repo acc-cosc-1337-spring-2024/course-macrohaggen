@@ -1,7 +1,2 @@
-from src.homework.b_in_proc_out.main import mathFunctionM
-
-def multiply_numbers(x, y):
-    
-    return mathFunctionM(x, y)
-
-    
+def multiply_numbers(val1, val2):
+    return val1 * val2
